@@ -25,7 +25,7 @@ To get started with using or contributing to this project, follow the steps belo
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/drag-and-drop-jpg-to-png-converter.git
+git clone [](https://github.com/naveensynergy7/nextJS-jpg-to-png-converter.git)
 
 
 2. Navigate to the project directory:
