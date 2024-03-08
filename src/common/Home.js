@@ -5,7 +5,6 @@ import { BsUpload } from "react-icons/bs";
 import { RxCrossCircled } from "react-icons/rx";
 import { RiDownload2Fill } from "react-icons/ri";
 import { FaFileZipper } from "react-icons/fa6";
-import {Helmet} from "react-helmet";
 
 
 class Home extends React.Component {
@@ -331,6 +330,11 @@ class Home extends React.Component {
                 </button>
               </div>
             ))}
+          </div>
+
+          <div className="video">
+            <h3>How to use ?</h3>
+            <div class="hs-responsive-embed-youtube"><iframe src="https://www.youtube.com/embed/7VjBaHIb4IA?rel=0&amp;showinfo=0" allowfullscreen="0"></iframe></div>
           </div>
         </div>
       </>

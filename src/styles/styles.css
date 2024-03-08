@@ -4,14 +4,41 @@
   padding-top: 10px;
 }
 
-.dropBox:hover{
+.dropBox:hover {
   background-color: #2a73d956;
 }
 
-.dropBox{
+.dropBox {
   transition: 1s background-color;
 }
 
+
+@media (max-width: 769px) {
+  .video {
+    width: 80%;
+    margin: auto;
+  }
+
+}
+
+@media (min-width: 769px) {
+  .video {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+.hs-responsive-embed-youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.hs-responsive-embed-youtube iframe {
+  left: 0;
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+}
 
 .uploadButton {
   cursor: pointer;

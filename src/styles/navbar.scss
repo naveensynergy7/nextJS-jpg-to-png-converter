@@ -63,6 +63,10 @@
 
 
   @media (max-width: 769px) {
+    .video{
+      width: 80%;
+      margin: auto;
+    }
     .menuIcon{
       display: inline-block;
       float: right;
@@ -76,6 +80,12 @@
       display: block;
     }
   }
+
+  .video{
+    width: 60%;
+    margin: auto;
+  }
+
     @media (min-width: 769px) {
     .menuIcon{
       display: none;
