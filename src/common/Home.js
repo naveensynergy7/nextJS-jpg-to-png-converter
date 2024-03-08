@@ -5,7 +5,7 @@ import { BsUpload } from "react-icons/bs";
 import { RxCrossCircled } from "react-icons/rx";
 import { RiDownload2Fill } from "react-icons/ri";
 import { FaFileZipper } from "react-icons/fa6";
-
+import Faq from "../common/Faq";
 
 class Home extends React.Component {
   constructor(props) {
@@ -128,8 +128,6 @@ class Home extends React.Component {
     });
   }
 
-
-
   // Helper function to load image file and return promise
   loadImage(file) {
     return new Promise((resolve, reject) => {
@@ -179,7 +177,28 @@ class Home extends React.Component {
           </div>
         )}
         <div style={{ textAlign: "center" }} className="App">
-          <h2>JPG To PNG</h2>
+          <h1>JPG To PNG - Convert JPG To PNG</h1>
+          <div style={{ marginTop: "30px", marginBottom: "10px" }}>
+            <h2>How to convert jpg to png in 1 second</h2>
+            <ol
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <li>
+                Upload your images by clicking on the below "Upload Images"
+                button or drag and drop images into the box below.
+              </li>
+              <br />
+              <li>
+                Images will be converted to PNG in a few seconds. Just download
+                images one by one or all together or as a zip bundle.
+              </li>
+            </ol>
+          </div>
           <div style={{ marginTop: "30px", marginBottom: "10px" }}>
             <button
               className="uploadButton"
@@ -332,10 +351,14 @@ class Home extends React.Component {
             ))}
           </div>
 
-          <div className="video">
-            <h3>How to use ?</h3>
-            <div class="hs-responsive-embed-youtube"><iframe src="https://www.youtube.com/embed/7VjBaHIb4IA?rel=0&amp;showinfo=0" allowfullscreen="0"></iframe></div>
-          </div>
+          <section className="video">
+            <h2>How to use ?</h2>
+            <div className="hs-responsive-embed-youtube">
+              <iframe src="https://www.youtube.com/embed/7VjBaHIb4IA?rel=0&amp;showinfo=0"></iframe>
+            </div>
+          </section>
+
+          <Faq />
         </div>
       </>
     );
