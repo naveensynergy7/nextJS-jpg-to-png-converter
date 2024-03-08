@@ -1,0 +1,80 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.dropBox:hover{
+  background-color: #2a73d956;
+}
+
+.dropBox{
+  transition: 1s background-color;
+}
+
+
+.uploadButton {
+  cursor: pointer;
+  background-color: #2a73d9;
+  border: 2px solid #2a73d9;
+  color: #fff;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: 4px;
+  height: 2.5em;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out,
+    opacity 0.2s ease-out;
+}
+
+.uploadButton:hover {
+  background-color: transparent;
+  color: #2a73d9;
+}
+
+.clearImages {
+  cursor: pointer;
+  background-color: #d44d3b;
+  border: 2px solid #d44d3b;
+  color: #fff;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: 4px;
+  height: 2.5em;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out,
+    opacity 0.2s ease-out;
+}
+
+.clearImages:hover {
+  background-color: transparent;
+  color: #d44d3b;
+}
+
+.download {
+  margin: 5px;
+  cursor: pointer;
+  background-color: #38404b;
+  border: 2px solid #38404b;
+  color: #fff;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: 4px;
+  height: 2.5em;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out,
+    opacity 0.2s ease-out;
+}
+
+.download:hover {
+  background-color: transparent;
+  color: #38404b;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.7;
+}
