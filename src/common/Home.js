@@ -351,12 +351,12 @@ class Home extends React.Component {
             ))}
           </div>
 
-          <section className="video">
+          {/* <section className="video">
             <h2>How to use ?</h2>
             <div className="hs-responsive-embed-youtube">
               <iframe src="https://www.youtube.com/embed/7VjBaHIb4IA?rel=0&amp;showinfo=0"></iframe>
             </div>
-          </section>
+          </section> */}
 
           <Faq />
         </div>
